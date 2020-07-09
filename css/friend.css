@@ -1,15 +1,28 @@
-.friend-avatar {
-  width: 40px;
-  height: 40px;
-  padding-right: 10px;
+.friend__header {
+  border-bottom: 1px solid #fcfcfc;
+  padding: 15px 0px;
 }
 
-.friend .friends {
+.friend__header .friends,
+.friend__birthday .birthday {
   font-size: 12px;
   display: flex;
   align-items: center;
 }
 
 .friends__content .friends__name {
-  display: block;
+}
+
+.friends .friend-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.birthday .friend-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 20px;
+  margin-right: 10px;
 }
