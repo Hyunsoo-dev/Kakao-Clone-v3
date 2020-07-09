@@ -1,0 +1,16 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__container .header__container-column {
+}
+
+.header__container-column .header__contatiner-column-title {
+  font-size: 25px;
+}
+
+.header__container-column i {
+  padding-left: 5px;
+}

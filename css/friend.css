@@ -1,0 +1,15 @@
+.friend-avatar {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+}
+
+.friend .friends {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.friends__content .friends__name {
+  display: block;
+}

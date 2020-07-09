@@ -1,0 +1,10 @@
+.statusbar {
+  margin-bottom: 10px;
+}
+.statusbar__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.statusbar .statusbar__container-column {
+}
