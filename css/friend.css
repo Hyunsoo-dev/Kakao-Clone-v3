@@ -1,10 +1,32 @@
-.friend__header {
-  border-bottom: 1px solid #fcfcfc;
-  padding: 15px 0px;
+.friend__header,
+.friend__birthday,
+.friend__recommend,
+.friend__favorite,
+.friend__channel {
+  border-bottom: 2px solid #fcfcfc;
+  padding: 20px 0px;
 }
 
-.friend__header .friends,
-.friend__birthday .birthday {
+.friend__birthday-title,
+.friend__favorite-title,
+.friend__recommend-title,
+.friend__channel-title {
+  margin-bottom: 10px;
+  font-size: 13px;
+  opacity: 0.7;
+}
+.friend__birthday-content {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.friends__name {
+  display: block;
+}
+.friends .friends__column,
+.birthday .birthday__column,
+.friend__recommend .recommended {
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -19,10 +41,57 @@
   border-radius: 10px;
   margin-right: 10px;
 }
-
+.birthday .friend-icon,
+.recommended .friend-icon {
+  padding-right: 8px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+.birthday .cake-icon {
+  color: #cf1b27;
+}
+.friend-icon.smile-icon {
+  color: violet;
+}
 .birthday .friend-avatar {
   width: 35px;
   height: 35px;
   border-radius: 20px;
   margin-right: 10px;
+}
+
+.birthday .birthday__name {
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+.birthday .friend__birthday-giftshop {
+  font-size: 15px;
+  border: 2px solid #f783ac;
+  padding: 5px 20px;
+  border-radius: 25px;
+}
+
+.birthday .gift {
+  color: #f783ac;
+}
+
+.favorites__column,
+.recommended__column {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.friend__favorite .favorites__img-container {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.favorites__img-container .favorites__avatar {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
 }

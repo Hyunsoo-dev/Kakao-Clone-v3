@@ -1,6 +1,7 @@
 @import "statusBar.css";
 @import "header.css";
 @import "friend.css";
+@import "reset.css";
 
 body {
   padding: 20px 20px;
