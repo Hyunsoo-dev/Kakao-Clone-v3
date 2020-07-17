@@ -1,3 +1,15 @@
+.header__wrapper {
+  padding: 10px 20px;
+  width: 100%;
+  position: fixed;
+  background-color: #efefef;
+  z-index: 1;
+}
+
+.header {
+  padding: 20px 0px;
+}
+
 .header__container {
   display: flex;
   justify-content: space-between;
@@ -8,9 +20,10 @@
 }
 
 .header__container-column .header__contatiner-column-title {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .header__container-column i {
-  padding-left: 5px;
+  padding-left: 20px;
+  font-size: 20px;
 }

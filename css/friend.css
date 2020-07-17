@@ -1,8 +1,12 @@
+.friend {
+  padding-top: 105px;
+}
 .friend__header,
 .friend__birthday,
 .friend__recommend,
 .friend__favorite,
-.friend__channel {
+.friend__channel,
+.friend__list {
   border-bottom: 2px solid #fcfcfc;
   padding: 20px 0px;
 }
@@ -10,10 +14,11 @@
 .friend__birthday-title,
 .friend__favorite-title,
 .friend__recommend-title,
-.friend__channel-title {
+.friend__channel-title,
+.friend__list-title {
   margin-bottom: 10px;
   font-size: 13px;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 .friend__birthday-content {
   margin: 10px 0px;
@@ -26,7 +31,10 @@
 }
 .friends .friends__column,
 .birthday .birthday__column,
-.friend__recommend .recommended {
+.favorites .favorites__column,
+.recommended .recommended__column,
+.channels .channels__column,
+.lists .lists__column {
   font-size: 12px;
   display: flex;
   align-items: center;
@@ -35,14 +43,18 @@
 .friends__content .friends__name {
 }
 
-.friends .friend-avatar {
-  width: 40px;
-  height: 40px;
-  border-radius: 10px;
+.friends .friend-avatar,
+.birthday .friend-avatar,
+.lists .friend-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
   margin-right: 10px;
 }
 .birthday .friend-icon,
-.recommended .friend-icon {
+.recommended .friend-icon,
+.channels .channel-icon {
+  font-size: 40px;
   padding-right: 8px;
   margin-left: 5px;
   margin-right: 10px;
@@ -53,11 +65,9 @@
 .friend-icon.smile-icon {
   color: violet;
 }
-.birthday .friend-avatar {
-  width: 35px;
-  height: 35px;
-  border-radius: 20px;
-  margin-right: 10px;
+
+.channels .channel-icon {
+  color: #ffff00;
 }
 
 .birthday .birthday__name {
@@ -74,13 +84,6 @@
 
 .birthday .gift {
   color: #f783ac;
-}
-
-.favorites__column,
-.recommended__column {
-  display: flex;
-  align-items: center;
-  font-size: 15px;
 }
 
 .friend__favorite .favorites__img-container {
