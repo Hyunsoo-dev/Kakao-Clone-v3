@@ -1,5 +1,5 @@
 .header__wrapper {
-  padding: 10px 20px;
+  padding: 0px 20px;
   width: 100%;
   position: fixed;
   background-color: #efefef;
@@ -7,7 +7,16 @@
 }
 
 .header {
-  padding: 20px 0px;
+  padding: 10px 20px;
+}
+
+.header__chat {
+  padding-top: 20px;
+  padding: 10px 20px;
+  background-color: #e6f3ff;
+}
+.header__chat .chat-title {
+  margin-left: 20px;
 }
 
 .header__container {
@@ -17,13 +26,16 @@
 }
 
 .header__container .header__container-column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.header__container-column .header__contatiner-column-title {
-  font-size: 30px;
+.header__container-column .header__container-column-title {
+  font-size: 25px;
 }
 
 .header__container-column i {
-  padding-left: 20px;
+  padding: 0px 15px;
   font-size: 20px;
 }

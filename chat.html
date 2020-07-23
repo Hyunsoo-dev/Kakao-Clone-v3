@@ -15,8 +15,7 @@
     <!-- 
         채팅방 페이지
     -->
-
-    <header class="statusbar">
+    <div class="statusbar__chat">
       <div class="statusbar__container">
         <div class="statusbar__container-column">
           SKT 7:54
@@ -32,6 +31,159 @@
           <i class="fas fa-battery-full"></i>
         </div>
       </div>
+    </div>
+
+    <header class="header__chat">
+      <div class="header__container">
+        <div class="header__container-column">
+          <div class="header__container-column-icon">
+            <a href="chats.html">
+              <i class="fas fa-arrow-left"></i>
+            </a>
+          </div>
+          <div class="header__container-column-title chat-title">
+            양재영
+          </div>
+        </div>
+        <div class="header__container-column">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
     </header>
+    <main class="chat">
+      <div class="chat__content incomingMsg">
+        <div class="incomingMsg-column">
+          <img src="img/basic.jpg" class="friend-avatar g-avatar" />
+          <div class="incomingMsg-column-content">
+            <div class="incomingMsg-name">양재영</div>
+          </div>
+        </div>
+      </div>
+      <div class="incomingMsg__wrapper">
+        <div class="chat__content incomingMsg">
+          <div class="incomingMsg-column">
+            <div class="incomingMsg-column-content">
+              <div class="incomingMsg-message">ㅋㅋㅋ</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat__content incomingMsg">
+          <div class="incomingMsg-column">
+            <div class="incomingMsg-column-content">
+              <div class="incomingMsg-message">난 곧 집 갈 예정</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat__content incomingMsg">
+          <div class="incomingMsg-column">
+            <div class="incomingMsg-column-content">
+              <div class="incomingMsg-message">회식중이여</div>
+              <div class="incomingMsg-timeStamp">9:34 PM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sendingMsg__wrapper">
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">쒯~</div>
+            </div>
+          </div>
+        </div>
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">ㅋㅋㅋㅋ</div>
+            </div>
+          </div>
+        </div>
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">오키오키 알겠음ㅋㅋ</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">피방 해질거?</div>
+              <div class="sendingMsg-timeStamp">9:41 PM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="chat__content incomingMsg">
+        <div class="incomingMsg-column">
+          <img src="img/basic.jpg" class="friend-avatar g-avatar" />
+          <div class="incomingMsg-column-content">
+            <div class="incomingMsg-name">양재영</div>
+          </div>
+        </div>
+      </div>
+      <div class="incomingMsg__wrapper">
+        <div class="chat__content incomingMsg">
+          <div class="incomingMsg-column">
+            <div class="incomingMsg-column-content">
+              <div class="incomingMsg-message">
+                몇시까지 할건디 좀 늦어도 질 거 닮아부난
+              </div>
+              <div class="incomingMsg-timeStamp">10:05 PM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sendingMsg__wrapper">
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">아직 안하고인</div>
+            </div>
+          </div>
+        </div>
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">곧 갈건디</div>
+            </div>
+          </div>
+        </div>
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">
+                1시 정도? 조금 더 할수도 있고
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="chat__content sendingMsg">
+          <div class="sendingMsg-column">
+            <div class="sendingMsg-column-content">
+              <div class="sendingMsg-message">근데 두시 이전임</div>
+              <div class="sendingMsg-timeStamp">10:17 PM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="chat__write">
+      <div class="chat__write-column">
+        <input type="text" class="inputMsg" placeholder="send message" />
+        <div class="chat__icon-left chat__icon">
+          <i class="far fa-plus-square"></i>
+        </div>
+        <div class="chat__icon-right chat__icon">
+          <i class="far fa-smile"></i>
+          <i class="fas fa-list"></i>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

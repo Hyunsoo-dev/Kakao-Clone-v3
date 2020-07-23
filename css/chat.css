@@ -1,0 +1,124 @@
+.chat {
+  background-color: #e6f3ff;
+  font-size: 13px;
+}
+
+.incomingMsg__wrapper,
+.sendingMsg__wrapper {
+  margin: 5px 0px;
+}
+.incomingMsg .incomingMsg-column {
+  display: flex;
+  align-items: center;
+}
+.incomingMsg .incomingMsg-name {
+  font-size: 15px;
+}
+.incomingMsg__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.incomingMsg .incomingMsg-column-content {
+  position: relative;
+  display: flex;
+}
+.incomingMsg .incomingMsg-timeStamp {
+  margin-left: 10px;
+  position: absolute;
+  right: -60px;
+  bottom: 9px;
+  font-size: 10px;
+}
+.incomingMsg .incomingMsg-message {
+  padding: 0px 5px;
+  background-image: linear-gradient(to right, #b3ffab, #12fff7);
+  color: black;
+  width: 160px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 7px 0px;
+  margin-left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 10px 5px 10px #fefefe;
+}
+.sendingMsg__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.sendingMsg .sendingMsg-column-content {
+  display: flex;
+  position: relative;
+}
+.sendingMsg .sendingMsg-timeStamp {
+  margin-right: 10px;
+  font-size: 10px;
+  position: absolute;
+  left: -60px;
+  bottom: 7px;
+}
+.sendingMsg .sendingMsg-message {
+  padding: 0px 5px;
+  width: 160px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 7px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #70e1f5, #ffd194);
+  color: black;
+  box-shadow: 10px 5px 10px #fefefe;
+}
+
+.chat__write {
+  position: fixed;
+  bottom: 3px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  padding: 0px 10px;
+  z-index: 1;
+}
+
+.chat__write .chat__write-column {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.chat__write .inputMsg {
+  padding: 0px 30px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  border: none;
+  transition: width 0.5s ease-in-out, transform 0.5s ease-in-out,
+    border-radius 0.5s ease-in-out;
+}
+.inputMsg:focus {
+  outline: none;
+  width: 80%;
+  transform: translateY(-50px);
+  border-radius: 20px;
+}
+.inputMsg:focus ~ .chat__icon {
+  opacity: 0;
+}
+
+.chat__icon-left {
+  position: absolute;
+  left: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.chat__icon-right {
+  position: absolute;
+  right: 20px;
+  transition: opacity 0.5s ease-in-out;
+}
