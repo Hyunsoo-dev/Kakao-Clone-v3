@@ -1,5 +1,5 @@
 .friend {
-  padding-top: 105px;
+  padding-top: 80px;
 }
 .friend__header,
 .friend__birthday,
@@ -28,6 +28,9 @@
 }
 .friends__name {
   display: block;
+}
+.friends__status {
+  margin-top: 15px;
 }
 .friends .friends__column,
 .birthday .birthday__column,

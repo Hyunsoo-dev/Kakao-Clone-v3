@@ -1,13 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>news.html</title>
+    <script
+      src="https://kit.fontawesome.com/f7071e7aca.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
     <!--
         # 눌렀을 때 나오는 페이지
     -->
-</body>
+    <div class="header__wrapper">
+      <div class="statusbar">
+        <div class="statusbar__container">
+          <div class="statusbar__container-column">
+            SKT 7:54
+            <i class="fas fa-cloud-sun"></i>
+          </div>
+          <div class="statusbar__container-column">
+            <i class="fas fa-clock"></i>
+            <i class="fas fa-volume-mute"></i>
+            <i class="fas fa-arrow-up"></i>
+            <i class="fas fa-arrow-down"></i>
+            <i class="fas fa-signal"></i>
+            100%
+            <i class="fas fa-battery-full"></i>
+          </div>
+        </div>
+      </div>
+      <header class="news__header new">
+        <div class="new__container">
+          <div class="new__container-column">
+            <div class="new__container-column-title">
+              코로나19
+            </div>
+            <div class="new__container-column-title">
+              #뉴스
+            </div>
+            <div class="new__container-column-title">
+              쇼핑
+            </div>
+            <div class="new__container-column-title">
+              FUN
+            </div>
+            <div class="new__container-column-title">
+              연예
+            </div>
+            <div class="new__container-column-title">
+              스포츠
+            </div>
+          </div>
+          <div class="new__container-column">
+            <i class="fas fa-exchange-alt"></i>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div class="checkin">
+      <div class="checkin__column">
+        <div class="checkin__column-title">카카오톡 QR 체크인 방법 안내</div>
+        <div class="checkin__column-content">
+          <div class="checkin__column-first-content">실시간 뉴스 ></div>
+          <div class="checkin__column-second-content">생활 속 거리두기 ></div>
+        </div>
+      </div>
+      <div class="checkin__column">
+        <div class="checkin__column-icon">
+          <i class="fas fa-hands-wash"></i>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar">
+      <div class="navbar__content">
+        <a href="index.html">
+          <i class="far fa-user fa-2x"></i>
+        </a>
+        <div class="main__content-comment comments">
+          <a href="chats.html">
+            <div class="comments-icon">530</div>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </div>
+        <a href="news.html">
+          <i class="fas fa-star-of-life fa-2x"></i>
+        </a>
+        <a href="more.html">
+          <i class="fas fa-ellipsis-h fa-2x"></i>
+        </a>
+      </div>
+    </nav>
+    <main class="news">
+      <div class="news__first">
+        <div class="news__first-column">
+          <div class="news__first-column-title">
+            추미애 , 윤석열 '독립수사본부' 건의 기부
+          </div>
+          <div class="news__first-column-title">
+            조국 "상상인과 무관함 밝혀져..'조국펀드' 용어 사용 말아달라
+          </div>
+          <div class="news__first-column-title">
+            "처리비용 아끼려고"..죽은 장어 15t 임야에 버린 40대
+          </div>
+          <div class="news__first-column-title">
+            최숙현 폭행 의혹 선수 "나도 때렸고 , 감독 주장도 때렸다."
+          </div>
+          <div class="news__first-column-title">
+            일기장 훔쳐본 동료 원망하듯 ..故최숙현 "제발 그만 일러"
+          </div>
+        </div>
+      </div>
+      <div class="news__second">
+        <div class="news__second-column">
+          <div class="news__second-column-img">
+            <img src="img/airplane.jpg" class="news__photo" />
+          </div>
+          <div class="news__second-column-title">
+            코 납작해진 美 항공기..JFK 공항에 아찔한 불시착
+          </div>
+        </div>
+        <div class="news__second-column">
+          <div class="news__second-column-img">
+            <img src="img/josoomi.jpg" class="news__photo" />
+          </div>
+          <div class="news__second-column-title">
+            조수미가 추억하는 모리코네 "세계에 아름다운 선물 주고 떠나"
+          </div>
+        </div>
+      </div>
+    </main>
+    <nav class="news__search">
+      <div class="news__search-column">
+        <input
+          type="text"
+          class="searchbubble"
+          placeholder="검색어를 입력하세요."
+        />
+      </div>
+      <div class="news__search-column">
+        <div class="news__search-column-title">#생활 속 거리두기</div>
+        <div class="news__search-column-title">#뷔 신기록</div>
+        <div class="news__search-column-title">#궁 리메이크</div>
+        <div class="news__search-column-title">#박서준 홍보대사</div>
+      </div>
+      <div class="news__search-column">
+        <div class="news__search-column-title">#선미 비하인드</div>
+        <div class="news__search-column-title">#이영진 재계약</div>
+        <div class="news__search-column-title">#코로나 19 발생현황</div>
+        <div class="news__search-column-title">#태민 부상</div>
+      </div>
+    </nav>
+    <nav class="navbar">
+      <div class="navbar__content">
+        <a href="index.html">
+          <i class="far fa-user fa-2x"></i>
+        </a>
+        <div class="main__content-comment comments">
+          <a href="chats.html">
+            <div class="comments-icon">530</div>
+            <i class="fas fa-comment fa-2x"></i>
+          </a>
+        </div>
+        <a href="news.html">
+          <i class="fas fa-star-of-life fa-2x"></i>
+        </a>
+        <a href="more.html">
+          <i class="fas fa-ellipsis-h fa-2x"></i>
+        </a>
+      </div>
+    </nav>
+  </body>
 </html>

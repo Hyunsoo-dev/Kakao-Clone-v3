@@ -1,9 +1,10 @@
 .statusbar {
-  background-color: #efefef;
-  padding: 10px 20px;
+  background-image: linear-gradient(to right, #c9ffbf, #ffafbd);
+  padding: 5px 10px;
+  font-size: 13px;
 }
 .statusbar__chat {
-  background-color: #cce6ff;
+  background-image: linear-gradient(to right, #c9ffbf, #ffafbd);
   padding: 10px 20px;
 }
 .statusbar__container {

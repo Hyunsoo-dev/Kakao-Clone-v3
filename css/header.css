@@ -2,21 +2,28 @@
   padding: 0px 20px;
   width: 100%;
   position: fixed;
-  background-color: #efefef;
-  z-index: 1;
+  background-image: linear-gradient(to right, #c9ffbf, #ffafbd);
+  z-index: 2;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
+  box-shadow: 5px 5px 10px #fefefe;
 }
 
 .header {
   padding: 10px 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
 }
 
 .header__chat {
   padding-top: 20px;
   padding: 10px 20px;
-  background-color: #e6f3ff;
+
+  font-family: "Noto Sans KR", sans-serif;
+  font-weight: 300;
 }
 .header__chat .chat-title {
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .header__container {
@@ -32,10 +39,32 @@
 }
 
 .header__container-column .header__container-column-title {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .header__container-column i {
   padding: 0px 15px;
   font-size: 20px;
+}
+
+.news__header {
+  padding: 10px 20px;
+}
+.new .new__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.new .new__container-column {
+  display: flex;
+}
+.new .new__container-column-title {
+  font-family: "Noto Sans KR", sans-serif;
+  font-size: 13px;
+  margin: 0px 10px;
+}
+
+.new__container-column i {
+  font-size: 25px;
 }

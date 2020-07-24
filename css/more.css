@@ -1,0 +1,114 @@
+.more__header {
+  padding-top: 90px;
+}
+
+.more__header .mores__column {
+  display: flex;
+  align-items: center;
+}
+
+.more__header .more-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.more__header .mores__column-content {
+  margin-left: 20px;
+}
+.more__header .mores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.more__header .mores__status {
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.more__header .mores__column-firstbtn,
+.more__header .mores__column-secondbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 30px;
+  font-size: 13px;
+  border: 1px solid #efefef;
+  margin-right: 10px;
+  border-radius: 20px;
+}
+.mores__column-firstbtn i,
+.mores__column-secondbtn i {
+  color: green;
+}
+
+.kakaopay {
+  margin: 20px 0px;
+  height: 60px;
+  background-color: #ffff33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.kakaopay .kakaopay__column {
+  display: flex;
+}
+
+.kakaopay .kakaopay__column-money {
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  margin-left: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff99;
+  font-size: 13px;
+}
+.kakaopay__column i {
+  font-size: 15px;
+  margin: 0px 5px;
+}
+
+.kakaopay__column .kakaopay__column-first,
+.kakaopay__column .kakaopay__column-second,
+.kakaopay__column .kakaopay__column-third {
+  margin-right: 20px;
+  font-size: 13px;
+}
+
+.menu {
+  width: 100%;
+}
+.menu .menurow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.menurow .menurow-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+}
+.menurow-content-icon i {
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.menurow-content-title {
+  font-size: 12px;
+}
+.star {
+  margin: 20px 0px;
+}
+.star-img {
+  width: 70%;
+  height: 10%;
+  margin: 0 auto;
+  left: 0px;
+  right: 0px;
+  display: block;
+}

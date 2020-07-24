@@ -6,6 +6,9 @@
 @import "navbar.css";
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
 @import "chat.css";
+@import "news.css";
+@import "more.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
