@@ -24,12 +24,12 @@
 .chats .chatslists__name {
   display: block;
   margin: 10px 0px;
-  font-size: 15px;
+  font-size: 13px;
 }
 
 .chats .chatslists__status {
   margin: 10px 0px;
-  font-size: 15px;
+  font-size: 13px;
   opacity: 0.5;
 }
 

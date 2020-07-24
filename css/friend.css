@@ -28,9 +28,12 @@
 }
 .friends__name {
   display: block;
+  font-size: 15px;
 }
 .friends__status {
-  margin-top: 15px;
+  font-size: 15px;
+  margin-top: 13px;
+  opacity: 0.7;
 }
 .friends .friends__column,
 .birthday .birthday__column,
@@ -90,14 +93,15 @@
 }
 
 .friend__favorite .favorites__img-container {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+  margin-right: 3px;
+  margin-left: 5px;
 }
 
 .favorites__img-container .favorites__avatar {
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 18px;
+  height: 18px;
   border-radius: 5px;
 }
