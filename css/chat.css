@@ -11,6 +11,7 @@
 .incomingMsg .incomingMsg-column {
   display: flex;
   align-items: center;
+  animation: incomingMsgAnimation linear 0.5s forwards;
 }
 .incomingMsg .incomingMsg-name {
   font-size: 15px;
@@ -44,6 +45,15 @@
   align-items: center;
   box-shadow: 5px 5px 7px #fefefe;
 }
+
+@keyframes incomingMsgAnimation {
+  from {
+    transform: translateX(-150px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
 .sendingMsg__wrapper {
   display: flex;
   flex-direction: column;
@@ -53,6 +63,7 @@
 .sendingMsg .sendingMsg-column-content {
   display: flex;
   position: relative;
+  animation: sendingMsgAnimation linear 0.5s forwards;
 }
 .sendingMsg .sendingMsg-timeStamp {
   margin-right: 10px;
@@ -73,6 +84,15 @@
   background-image: linear-gradient(to right, #70e1f5, #ffd194);
   color: black;
   box-shadow: 5px 5px 7px #fefefe;
+}
+
+@keyframes sendingMsgAnimation {
+  from {
+    transform: translateX(150px);
+  }
+  to {
+    transform: translateX(0px);
+  }
 }
 
 .chat__write {
