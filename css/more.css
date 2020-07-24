@@ -59,7 +59,7 @@
   width: 150px;
   height: 40px;
   border-radius: 25px;
-  margin-left: 47px;
+  margin-left: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -85,7 +85,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 10px;
 }
 .menurow .menurow-content {
   display: flex;
